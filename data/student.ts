@@ -6,7 +6,7 @@ export const STUDENT = {
   program: "Bachelor of Business & Information Technology (BBIT)",
   programLong: "Bachelor of Science in Business & Information Technology (4 year program)",
   semester: "Fall 2026",
-  cgpa: "1.91/4.0",
+  cgpa: "2.91/4.0",
   creditsRequired: 134,
   creditsEarned: 68,
   creditsRemaining: 66,
