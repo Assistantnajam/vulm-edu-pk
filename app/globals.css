@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes tick {
+  0% { opacity: 1; }
+  100% { opacity: 0.12; }
+}
+
+html, body { margin: 0; background: #f1f2f7; }
+body { font-family: "Poppins", sans-serif; color: #333; -webkit-font-smoothing: antialiased; }
+
+/* thin scrollbar like the original portal */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #c4c4c4; border-radius: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

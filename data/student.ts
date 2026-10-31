@@ -1,0 +1,15 @@
+export const STUDENT = {
+  name: "Waqas Ahmed Khan",
+  id: "BC250215973",
+  fatherName: "S/O TARIQ SAEED KHAN",
+  registrationNo: "020-VU-015352",
+  program: "Bachelor of Business & Information Technology (BBIT)",
+  programLong: "Bachelor of Science in Business & Information Technology (4 year program)",
+  semester: "Fall 2026",
+  cgpa: "1.91/4.0",
+  creditsRequired: 134,
+  creditsEarned: 68,
+  creditsRemaining: 66,
+  studiedSummary: "14 studied course(s) = 36 credit(s)",
+  exemptedSummary: "11 exempted course(s) = 32 credit(s)",
+} as const;
